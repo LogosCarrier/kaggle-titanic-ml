@@ -1,68 +1,15 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Logistic%20Regression-orange)
+![Kaggle](https://img.shields.io/badge/Kaggle-Titanic-20BEFF)
 
-This project is based on the Kaggle Titanic competition.
+## 📌 Project Overview
 
-The goal is to predict whether a passenger survived the Titanic disaster using machine learning models.
+This project is a machine learning solution for the famous Kaggle competition:
 
-## Dataset
+**Titanic - Machine Learning from Disaster**
 
-Dataset:
-Kaggle Titanic - Machine Learning from Disaster
+The goal is to predict whether a passenger survived the Titanic disaster based on passenger information.
 
-Features include:
-- Passenger class
-- Sex
-- Age
-- Fare
-- Family information
-- Embarked port
-
-## Data Analysis
-
-Explored survival patterns based on:
-
-- Sex
-- Passenger class
-- Age
-- Family size
-- Passenger title
-
-Main findings:
-- Female passengers had higher survival rates.
-- First-class passengers had higher survival rates.
-- Small families showed better survival rates than alone travelers or large families.
-
-## Feature Engineering
-
-Created new features:
-
-- Title extracted from passenger names
-- FamilySize = SibSp + Parch + 1
-- FamilyType:
-  - Alone
-  - Small
-  - Large
-
-## Model
-
-Used:
-
-- Logistic Regression
-
-## Results
-
-Validation Accuracy:
-83.80%
-
-Kaggle Public Score:
-0.77511
-
-## Tools
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Kaggle Notebook
+This project covers the complete machine learning workflow:
